@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `impl Clone` for {`CacheMe`, `DefaultParseMode`, `Throttle`} ([#75][pr75])
 - `DefaultParseMode::parse_mode` which allows to get currently used default parse mode ([#76][pr76])
+- `Thrrotle::{limits,set_limits,queue_status}` functions and `QueueStatus` struct ([#76][pr76])
 
 [pr75]: https://github.com/teloxide/teloxide-core/pull/75
 [pr76]: https://github.com/teloxide/teloxide-core/pull/76
